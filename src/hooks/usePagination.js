@@ -8,7 +8,7 @@ export const usePagination = (totalPages) => {
 }
 	return result
 }, [totalPages])
-console.log(`usePagination ${pageArray}`)
+
 return pageArray
 	
 }
